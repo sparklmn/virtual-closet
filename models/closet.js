@@ -31,7 +31,7 @@ var ClosetSchema = new Schema({
     subCategory: {type: String, required: true},
     name: {type: String, required: true},
     description: {type: String},
-    color: {type: String, required: true},
+    color: {type: String},
     price: {type: String},
     discountedPrice: {type: String},
     size: {type: String},
@@ -44,7 +44,7 @@ var ClosetSchema = new Schema({
     owned: {type: Boolean},
     images: [
         {
-            url: {type: String, required: true},
+            url: {type: String},
             description: {type: String}
         }
     ]
