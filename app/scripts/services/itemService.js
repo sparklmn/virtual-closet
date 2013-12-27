@@ -7,6 +7,9 @@ angular.module('virtualClosetApp')
         }, {
             update: {
                 method: 'PUT'
+            },
+            save: {
+                method: 'POST'
             }
         });
     });
